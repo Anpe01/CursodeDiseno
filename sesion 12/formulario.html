@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+
+    <div>
+      <form>
+          <label for="dni">Dni:  </label><br>
+          <input type="number" name="dni" id="dni" placeholder="Numero de Dni"><br> <!-- placeholde= texto de fondo y se quita /id= for-->
+        
+
+          <label for="nombres">Nombre</label><br>
+          <input type="text" name="nombres" id="nombres" placeholder="Nombres Completos"><br>
+             
+
+          <label for="contraseña">Contraseña</label><br>
+          <input type="password" name="contraseña" id="contraseña" placeholder="Contraseña" required><br> <!-- required= obligatorio escribir antes de enviar algo-->
+            
+
+          <label for="correo">Correo Electronico</label><br>
+          <input type="email" name="correo" id="correo" placeholder="Correo Electronico"><br>
+
+          <label for="sexo">Sexo</label><br>
+          <input type="radio" name="sexo" id="sexo">Masculino<br>
+          <input type="radio" name="sexo" id="sexo">Femenino <br>
+
+          <label for="nivel">Nivel de Estudio</label><br>
+          <input type="checkbox" name="primaria" id="nivel">Primaria<br>
+          <input type="checkbox" name="secundaria" id="nivel">Secundaria <br>
+
+          <label for="pais">Paises</label>
+          <select name="pais" id="pais">
+              <option value="">Peru</option>
+              <option value="">Chile</option>
+              <option value="">Colombia</option>
+              <option value="">Mexico</option>
+          </select>
+          <br>
+
+          <label for="color">Color</label><br>
+          <input type="color"> <br>
+
+          <label for="fecha">Fecha de Nacimiento</label><br>
+          <input type="date"> <br> <!-- eliges-->
+
+          <label for="fecha">Fecha de Nacimiento</label><br>
+          <input type="datetime"> <br> <!-- escribe la fecha?-->
+
+          <label for="hora">Hora</label><br>
+          <input type="time"> <br> 
+
+          <label for="archivo">Archivo</label><br>
+          <input type="file"> <br> 
+
+          <label for="limpiar">Limpiar</label><br>
+          <input type="reset"> <br> 
+
+          <label for="url">Url</label><br>
+          <input type="url">  <br> 
+
+          <label for="numeroTel">Numero Telefonico</label><br>
+          <input type="tel"> <br> 
+
+          <label for="cursor">Un cursor?</label><br>
+          <input type="range"> <br> 
+
+          <textarea name="tabla" id="tabla" cols="30" rows="30"></textarea> <br>
+
+          <fieldset id="saludos">
+              <legend>Saludos</legend>
+              <p>hola</p>
+              <p>hy</p>
+          </fieldset>
+
+          <input type="image" src="/img/favicon.ico" alt=""> <br>
+
+          <input type="submit" > <!--boton para enviar todo el formulario-->
+
+      </form>
+    </div>
+ 
+</body>
+</html>

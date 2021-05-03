@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta Cinematografica</title>
+    <link rel="icon" href="/img/favicon.ico">
+</head>
+<body>
+    <div id="contenedor">
+        <h2>Encuesta de cine:Nominadas al Oscar 2021</h2>
+
+        <form id="formulario01" name="formulario01" method="POST" action="data.php">
+            
+            <fieldset  id="datosPersonales">
+                <legend>Datos Personales</legend>
+                <label for="nombre">Nombre</label> 
+                <input type="text" name="nombre" id="nombre" required> <br>
+
+                <label for="apellido">Apellidos</label>
+                <input type="text" name="apellido" id="apellido" required> <br>
+
+                <label for="dni">DNI</label>
+                <input type="text" name="dni" id="dni" maxlength="9" required> <br>
+
+                <label for="edad">Edad</label>
+                <input type="text" name="edad" id="edad" maxlength="2"> <br>
+
+                <label for="sexo">Sexo</label>
+                <select name="sexos" id="sexos" required> 
+                    <option value="masculino">Masculino</option>
+                    <option value="femenino">Femenino</option>
+                </select>
+            </fieldset>
+            <br>
+                            <!--segundo formulario-->
+            <fieldset  id="mejorPelicula" >
+                <legend>Mejor Pelicula</legend>
+                <input type="radio" name="pelicula" value="11"> Call me by your name <br>
+                <input type="radio" name="pelicula" value="22"> Dunkerque <br>
+                <input type="radio" name="pelicula" value="33"> Dejame salir <br>
+            </fieldset>
+            <br>
+                            <!-- tercer formulario -->
+            
+
+            <fieldset id="peliculasNoVistas">
+                <legend>Seleciona Peliculas que no hayas visto</legend>
+                <input type="checkbox" name="pelicula01" id="pelicula01">Call me by your name  <br>
+                <input type="checkbox" name="pelicula02" id="pelicula02">Dunkerque <br>
+                <input type="checkbox" name="pelicula03" id="pelicula03">Dejame salir <br>
+                <input type="checkbox" name="pelicula04" id="pelicula04">Los Vengadores <br>
+                <input type="checkbox" name="pelicula05" id="pelicula05">El jinete sin cabeza<br>
+            </fieldset>
+            <br>
+
+                            <!-- cuarto formulario-->
+            <fieldset id="argumentoPeli">
+                <legend>Argumento de la pelicula que mas te gusto</legend>
+                <textarea name="argumento" id="argumento" cols="100" rows="6" required></textarea>
+            </fieldset>
+            <br>
+
+            <input type="reset" value="Borrar Formulario">
+            <input type="submit" value="Enviar">
+            
+         </form>
+    </div>
+
+</body>
+</html>
