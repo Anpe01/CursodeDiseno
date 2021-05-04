@@ -1,0 +1,7 @@
+body{
+    color: blue;
+}
+ /* por herencia es azul pero por orden es de color verde*/
+p{
+    color: green;
+}
