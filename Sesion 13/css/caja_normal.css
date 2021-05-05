@@ -1,0 +1,30 @@
+.tamaño{
+    height: 60px;
+    width: 100px;
+}
+
+#caja1{
+    background-color: red;
+    height: 1660px;
+}
+#caja2{
+    background-color: blue;
+    float: left;
+}
+#caja3{
+    background-color: green;
+    float: left;
+    /*
+    position: absolute;
+    top: 60px;
+    left: 100px;
+    */
+}
+#caja4{
+    background-color: yellow;
+   /* position: fixed;  /*  fixed = se queda fijo en la pantalla 
+    top: 60px;
+    left: 200px;
+    */
+    float: left;
+}

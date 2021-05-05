@@ -1,0 +1,15 @@
+#noticia{
+    background-color: green;
+    font-size: 19px;
+}
+
+img{
+    float: right;
+}
+
+
+#fecha{
+    background-color: yellow;
+    font-size: 17px;
+    float: right;
+}
