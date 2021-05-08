@@ -1,0 +1,55 @@
+
+#titulo{
+    color: rgb(253, 251, 251);
+    background-color: red;
+    font-style:inherit;
+    font-size: 50px;
+    padding: 18px;
+    text-align: center;
+}
+
+
+
+#lista ul{
+    background-color:rgb(94, 87, 87);
+    color: white;
+    list-style: none; 
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+}
+
+#lista ul li{
+    display: inline-block;
+    padding: 8px 8px;
+    font-size: 14px;
+}
+
+
+#subtitulo{
+    font-size: 18px;
+    color: red;
+}
+#titulo_noticia{
+    font-size: 20px;
+    font-style:normal;
+}
+
+#noticia{
+    color:rgb(110, 99, 99);
+    font-size: 19px;
+    font-style:normal;
+}
+
+img{
+    float: right;
+}
+
+
+#fecha{
+    background-color:red;
+    color: aliceblue;
+    padding: 4px;
+    font-size: 15px;
+    float: right;
+}

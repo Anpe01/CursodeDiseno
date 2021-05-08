@@ -1,0 +1,103 @@
+#titulo{
+    text-align: center;
+    color: rgb(37, 40, 183);
+   padding: 5px;
+    font-family: arial;
+    float:unset;
+     
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#lista ul,nombre{
+    background-color:rgb(209, 166, 149);
+    color: white;
+    list-style: none; 
+    padding: 4px;
+    text-align: left;
+}
+
+#lista ul li{
+    display: inline-block;
+    padding: 8px ;
+    margin: 0px;
+    font-size: 15px;
+}
+
+#lista ul li a{
+    color: black;
+    text-decoration: none;
+    text
+    
+}
+
+#lista ul li a:hover{
+    background-color: rgb(130, 131, 196);
+   
+    
+}
+
+#listas{
+    list-style:upper-roman;  
+    
+}
+
+#listas li strong{
+ color: rgb(187, 64, 67);   
+}
+
+.color_fo{
+    background-color:rgb(209, 166, 149);
+}
+
+.color_titu{
+    background-color: rgb(187, 64, 67);
+}
+
+#bio_info{
+    padding:18px;
+}
+#expe_info{
+    padding:25px;
+}
+
+#expe_info li b{
+    color: rgb(187, 64, 67); 
+
+}
+#expe_titu{
+    padding:15px;
+    margin: 0px;
+
+}
+
+#nombre{
+    color: rgb(37, 40, 183);
+}
+
+h2{
+    color: rgb(37, 40, 183);
+}
+
+#expeTdo table{
+    padding:15px;
+}
+
+
+footer{
+    color: rgb(0, 0, 0);
+    text-align: center;
+
+}
+
+th {
+    color: red;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+
+
