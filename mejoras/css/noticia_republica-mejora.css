@@ -8,6 +8,11 @@
     text-align: center;
 }
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 
 
 #lista ul{
@@ -25,19 +30,31 @@
     font-size: 14px;
 }
 
+#lista ul li a{
+    color: black;
+    text-decoration: none;
+    
+}
+
+#lista ul li a:hover{
+    background-color: rgb(130, 131, 196);
+   
+    
+}
 
 #subtitulo{
-    font-size: 18px;
+    font-size: 22px;
     color: red;
 }
 #titulo_noticia{
-    font-size: 20px;
+    font-size: 23px;
     font-style:normal;
 }
 
 #noticia{
     color:rgb(110, 99, 99);
     font-size: 19px;
+    font-family: sans-serif;
     font-style:normal;
 }
 
