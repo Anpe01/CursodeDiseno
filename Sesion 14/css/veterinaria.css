@@ -1,0 +1,77 @@
+
+header{
+    height: 50px;
+    color: gray;
+    font-size: 50px;
+    font-family:'Gill Sans';
+    text-align: left;
+
+}
+
+.perro{
+    width: 250px;
+    border: 1px black solid;
+}
+
+h1{
+    color: red;
+    text-align: left;
+
+}
+
+nav{
+    background-color: gray;
+    font-size: 18px;
+    width: 20%;
+}
+
+nav ul{
+    list-style: none; 
+}
+
+nav ul li{
+    padding: 15px ; 
+}
+
+
+nav ul a{
+    text-decoration: none;
+    color: white;
+}
+
+section{
+    background-color: indigo;
+    width: 60%;
+    float: left;
+}
+
+aside{
+    background-color: darkmagenta;
+    color: white;
+    width: 20%;
+    font-size: 20px;
+
+}
+
+#asidetitu{
+    font-size: 30px;
+
+}
+
+footer{
+    clear: left;
+    background-color: darkorchid;
+    color: white;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+nav,section,aside{
+    float: left;
+    height: 575px;
+   
+}
+
+
