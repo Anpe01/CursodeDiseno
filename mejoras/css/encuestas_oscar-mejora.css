@@ -1,0 +1,22 @@
+*{
+    padding: 0px;
+    margin: 10px;
+}
+
+
+#contenedor{
+    background-image:  url("/img/oscar.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+input{
+    color: rgb(190, 164, 90);
+}
+#titulo{
+    color: rgb(121, 72, 72);
+}
+
+#formulario01 fieldset legend{
+    color:rgb(110, 45, 45);
+}

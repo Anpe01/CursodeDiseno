@@ -1,0 +1,214 @@
+header{
+    height: 220px;
+    font-size: 50px;
+    text-align: left;    /*/ */
+    background-color: rgb(161, 112, 113);
+}
+header a:hover{
+    background-color: rgb(115, 167, 216);
+}
+
+#titulo{
+    font-size: 50px;
+
+}
+
+#subtitulo{
+    font-size: 30px;
+    display: inline;
+}
+
+#sesioncara{
+    float: left;
+    padding: 15px;
+}
+
+#sesion{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    float:right;
+}
+
+nav{
+    background-color: gray;
+    font-size: 18px;
+    width: 100%;
+}
+
+
+nav ul{
+    list-style: none; 
+    padding: 15px;
+     display: inline;   
+}
+
+nav ul li{ 
+    margin: 75px;
+    display: inline;
+}
+
+
+nav ul a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    background-color: rgb(115, 167, 216);
+}
+
+section{
+    background-color:rgb(224, 209, 203);
+    width: 75%;
+    float: left;
+    height: 550px;
+}
+
+#formulario{
+    padding: 15px;
+    float: left;
+    width: 680px;
+    height: 440px;
+}
+
+#datosPersonales{
+    background-color: rgb(190, 169, 169);
+    border: 0px;
+}
+
+#formulario fieldset label{
+    font-size: 25px;
+    padding: 20px;
+    display: inline-block;
+    
+}
+
+#info{
+    padding: 15px;
+    float: right;
+    width: 380px;
+    height: 440px;
+}
+
+#info p{
+    font-size: 30px;
+}
+
+#info  ul li{
+    font-size: 20px;
+    padding: 15px;
+}
+
+input{
+    color:white;
+    background-color: rgb(161, 112, 113);
+}
+
+
+.cajas{
+    padding: 15px;
+    margin: 20px;
+    width: 425px;
+    height: 25px;
+    background-color: rgb(226, 215, 215);
+    border: 1px rgb(226, 215, 215) solid;
+    color: black;
+    font-size: 20px;
+}
+
+#nombre{
+    margin-left: 41px;
+}
+
+#email{
+    margin-left: 65px;
+}
+
+#asunto{
+    margin-left: 49px;
+}
+
+.cajas4{
+    float: right;
+    margin-right: 20px;
+}
+
+.boton{
+    padding: 8px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+aside{
+    background-color:rgb(209, 166, 149);
+    width: 23% ;
+    height: 520px;
+    font-size: 20px;
+    padding: 15px;
+    float: left;
+}
+
+#menu {
+    background-color: rgb(161, 112, 113);
+}
+
+#menu ul a {
+    text-decoration: none;
+    color: black;
+}
+
+#menu ul li a:hover{
+    background-color: rgb(115, 167, 216);
+}
+
+#enlace{
+    background-color: rgb(161, 112, 113);
+}
+
+#enlace ul a {
+    text-decoration: none;
+    color: black;
+}
+
+#enlace ul li a:hover{
+    background-color: rgb(115, 167, 216);
+}
+
+
+#aside2{
+    height: 125px;
+    background-color: rgb(161, 112, 113);
+    clear: left;
+}
+
+#aside2 div {
+    display:inline-flex;
+    font-size: 15px;
+    margin: 15px;
+}
+
+#caraaside{
+    width: 100px;
+   float: left;
+}
+
+#aside2 div ul a {
+    text-decoration: none;
+    color: black;
+}
+
+#aside2 ul li a:hover{
+    background-color: rgb(115, 167, 216);
+}
+
+
+footer{
+    clear: left;
+    background-color: gray;
+    color: white;
+    height: 20px;
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
+}

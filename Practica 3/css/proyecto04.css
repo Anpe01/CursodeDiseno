@@ -1,0 +1,30 @@
+#contenedor{
+    padding: 100px;
+    margin-top: 100px;
+}
+
+h1{
+    color: rgb(24, 51, 53);
+}
+fieldset{
+    border: 1px rgb(66, 89, 122) solid;
+}
+
+input:hover{
+    background-color: rgb(164, 165, 216);
+}
+
+a{
+    color:black;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: rgb(164, 165, 216);
+}
+
+body{
+    background-image:  url("https://s1.1zoom.me/b5050/342/Geometry_Texture_Blue_Light_Blue_White_background_586221_1920x1080.jpg");
+    background-repeat: no-repeat;
+    background-position:100%;
+}

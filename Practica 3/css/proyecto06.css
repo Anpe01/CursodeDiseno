@@ -1,0 +1,139 @@
+
+header{
+    height: 210px;
+    background-color: rgb(111, 195, 228);
+    font-size: 50px;
+    font-family:'Gill Sans';
+}
+
+.perro{
+    width: 120px;
+    float: right;
+}
+
+#titulo{
+    color: black;
+    font-size: 50px;
+}
+
+#titulo2{
+    color: rgb(75, 136, 250);
+    font-size: 30px;
+   display: inline;
+}
+
+nav{
+    background-color: rgb(73, 141, 168);
+    font-size: 18px;
+    width: 20%;
+}
+
+nav ul{
+    list-style: none; 
+}
+
+nav ul li{
+    padding: 15px ; 
+}
+
+
+nav ul a{
+    text-decoration: none;
+    color: white;
+    padding: 25px;
+}
+
+nav ul a:hover{
+    background-color: rgb(164, 165, 216);
+}
+
+section{
+    background-color: rgb(134, 171, 185);
+    width: 60%;
+    float: left;
+}
+
+#bala{
+    margin: 28px;
+}
+
+#bala h2{
+    display: inline-flex;
+    color: rgb(75, 136, 250);
+}
+
+#bala p{
+    font-size: 15px;
+    display: inline-flex;
+}
+
+#bala img{
+    float: right;
+}
+
+
+#bistu{
+    margin: 28px;
+}
+
+#bistu h2{
+    display: inline-flex;
+    color: rgb(75, 136, 250);
+}
+
+#bistu p{
+    font-size: 15px;
+    display: inline-flex;
+}
+
+#bistu img{
+    float: right;
+}
+
+#tubo{
+    margin: 28px;
+}
+
+#tubo h2{
+    display: inline-flex;
+    color: rgb(75, 136, 250);
+}
+
+#tubo p{
+    font-size: 15px;
+    display: inline-flex;
+}
+
+#tubo img{
+    float: right;
+}
+
+aside{
+    background-color: rgb(73, 141, 168);
+    color: white;
+    width: 20%;
+    font-size: 20px;
+
+}
+
+#asidetitu{
+    font-size: 30px;
+    padding: 25px;
+    color: rgb(56, 89, 150);
+}
+
+footer{
+    clear: left;
+    background-color: rgb(111, 195, 228);
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+    font-family:'Gill Sans';
+}
+
+nav,section,aside{
+    float: left;
+    height: 575px;
+}
+
+

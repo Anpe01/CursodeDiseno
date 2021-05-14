@@ -65,13 +65,11 @@ footer{
     height: 100px;
     text-align: center;
     font-size: 30px;
-
 }
 
 nav,section,aside{
     float: left;
     height: 575px;
-   
 }
 
 

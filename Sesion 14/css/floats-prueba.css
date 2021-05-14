@@ -1,31 +1,42 @@
 header{
     background-color: blueviolet;
-    height: 100px;
+    height: 80px;
 }
 
 nav{
     background-color: cornflowerblue;
-    width: 20%;
-    
+    /* width: 20%; */
+    height: 80px;
 }
 
 section{
     background-color: indigo;
-    width: 58%;
+    width: 80%;
 }
+
 
 aside{
     background-color: darkmagenta;
-    width: 22%;
+    width: 20%;
 }
+
+
+div{
+    background-color: rgb(161, 130, 130);
+    height: 70px;
+    float: left; 
+    padding: 25px 720px;  
+    text-align: left;
+}
+
 
 footer{
     clear: left;
     background-color: darkorchid;
-    height: 50px;
+    height: 70px;    
 }
 
-nav,section,aside{
+section,aside{
     float: left;
     height: 400px;
-}
+} 
