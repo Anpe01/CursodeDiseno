@@ -62,18 +62,68 @@ section{
     background-color:rgb(224, 209, 203);
     width: 75%;
     float: left;
-    height: 722px;
+    height: 500px;
 }
 
 section h1{
+    padding: 14px;
+}
+
+#conte{
+    padding-top: 20px;
+    margin-top: 2px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+#conte label{
+    font-size: 17px;
+}
+
+#conte input{
+    display: block;
+    font-size: 17px;
+    margin-left: 15px;
+}
+
+#conte a{
+    display: block;
+    padding: 10px;
+    font-size: 17px;
+}
+
+#datosPersonales{
+    background-color: rgb(190, 169, 169);
+    border: 0px;
+}
+
+#nombre{
+    margin-left: 15px;
+}
+
+#password{
+    margin-left: 15px; 
+}
+
+#usu{
+    display: block;
     padding: 15px;
 }
 
-section img{
-    width: 250px;
-    float: right;
+#pass{
+    display: block;
+    padding: 15px;
+}
+
+#nuv{
+    display: block;
+    padding: 10px;
+}
+
+#boton1{
     padding: 5px;
 }
+
 
 .contenido_sec{
     padding: 15px;
@@ -83,7 +133,7 @@ section img{
 aside{
     background-color:rgb(209, 166, 149);
     width: 23% ;
-    height: 692.2px;
+    height: 470px;
     font-size: 20px;
     padding: 15px;
     float: left;
