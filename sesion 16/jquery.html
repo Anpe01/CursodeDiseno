@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>InformaticaPC | Eventos de formularios en JQuery</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <style type="text/css">
+        body { background-color:lightyellow;font-family:Arial;font-size:10pt; }
+        #log { color:yellow;background-color:red; }
+    </style>
+    <script type="text/javascript" src="javascript/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function()
+        {
+            // Cuando 'nombre' obtiene el foco
+             $("#nombre").focus(function() {
+                $("#log").text("El cuadro de texto 'nombre' ha obtenido el foco");
+            });
+            // Cuando 'nombre' pierde el foco
+             $("#nombre").blur(function() {
+                $("#log").text("El cuadro de texto ha perdido el foco");
+            });
+            // Cuando se edita 'apellido1'
+             $("#apellido1").change(function() {
+                $("#log").text("Se ha modificado el primer apellido");
+            });
+            // Cuando se selecciona todo o parte del texto en 'apellido1'
+             $("#apellido2").select(function() {
+                $("#log").text("Se ha seleccionado el texto");
+            });
+            // Seleccionar el texto de 'nombre'
+             $("#btnSeleccionar").click(function() {
+                $("#nombre").select();
+            });
+             $("#form1").submit(function() {
+                $("#log").text("Se ha enviado el formulario");
+                // Cancelamos el envío
+                return false;
+            });
+        });
+    </script>
+  </head>
+  <body>
+      <div id="log"> </div>
+      <form name="form1" id="form1" method="post" action="#">
+          <label for="nombre">Nombre:</label>
+          <input type="text" name="nombre" id="nombre" value="" /><br />
+          <label for="apellido1">Apellido 1º:</label>
+          <input type="text" name="apellido1" id="apellido1" value="" />
+          <label for="apellido2">Apellido 2º:</label>
+          <input type="text" name="apellido2" id="apellido2" value="" /><p />
+          <input type="button" name="btnSeleccionar" id="btnSeleccionar" value="Seleccionar texto del nombre" />
+          <input type="submit" name="btnEnviar" id="btnEnviar" value="Enviar formulario" />
+      </form>
+      <p>Realiza los siguientes pasos y comprueba el resultado:</p>
+      <ul>
+          <li>Haz clic en el nombre para darle el foco, y después en otro cuadro de texto.</li>
+          <li>Escribe algo en el primer apellido y después cambia a otro cuadro de texto.</li>
+          <li>Escribe algo en el recuadro del segundo apellido y selecciónalo después.</li>
+          <li>Pulsa el botón para seleccionar el texto del nombre.</li>
+      </ul>
+  </body>
+</html>
