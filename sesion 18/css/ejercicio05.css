@@ -1,0 +1,130 @@
+body{
+    background-image: url(../img/fondo2.gif);
+    background-repeat: no-repeat;
+    background-size: 70%;
+}
+
+div{
+    background: #8e44ad;
+    color:white;
+    padding: .2rem .3rem 1rem .3rem;
+    position:absolute;
+    border-radius: 2rem 2rem 0 0;
+    animation: animar 15s infinite; 
+    /* animation-name: animar;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;*/
+}
+
+.circulo{
+  width: 10px;
+  height: 10px;
+  background-color: rgb(212, 106, 106);
+  margin-left: 20px;
+  border-radius: 50%;
+}
+
+@keyframes animar{
+
+    0% {
+        top: 65px;
+        left: 350px;
+      }
+    
+      10% {
+        top: 150px;
+        left: 350px;
+      }
+      15%{
+          top:180px;
+          left:350px;
+      }
+
+      18%{
+          top:225px;
+          left: 350px;
+      }
+      20% {
+        top: 255px;
+        left: 350px;
+      }
+      
+      25% {
+        top: 255px;
+        left: 385px;
+      }
+      
+      28% {
+        top: 255px;
+        left: 400px;
+      }
+
+      30% {
+        top: 255px;
+        left: 425px;
+      }
+
+      35% {
+        top: 255px;
+        left: 485px;
+      }
+      
+      40% {
+        top: 255px;
+        left: 525px;
+      }
+
+      45% {
+        top: 255px;
+        left: 575px;
+      }
+      
+      50% {
+        top: 255px;
+        left: 638px;
+      }
+
+      55% {
+        top: 320px;
+        left: 638px;
+      }
+      
+      60% {
+        top: 355px;
+        left: 638px;
+      }
+      65% {
+        top: 400px;
+        left: 638px;
+      }
+      70% {
+        top: 450px;
+        left: 638px;
+      }
+      75% {
+        top: 485px;
+        left: 638px;
+      }
+      80% {
+        top: 485px;
+        left: 615px;
+      }
+      85% {
+        top: 485px;
+        left: 581px;
+      }
+      
+      90% {
+        top: 515px;
+        left: 581px;
+      }
+      95% {
+        top: 543px;
+        left: 581px;
+      }
+      100% {
+        top: 543px;
+        left: 551px;
+      }
+      
+}

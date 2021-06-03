@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/agenda2.css">
+    <title>Document</title>
+</head>
+<body onload="actualizarDatos()">
+
+    <div id="contenedor">
+        <header>
+            <h3>Mi agenda de contactos</h3>
+            <hr>
+        </header>
+
+        <form >
+            <span> Nombre: </span>
+            <input type="text" placeholder="nombre" id="nombre" required> <br><br>
+            <span> Numero:</span> 
+            <input type="text" placeholder="numero de celular"  id="numero"> <br><br>
+        </form>
+        <hr>
+
+        <div>
+            <button type="button" onclick="guardarDato()"> Guardar </button>
+            <button type="button" onclick="recuperarDato()" > Recuperar </button>
+            <button type="button" onclick="eliminarDato()" > Eliminar </button>
+            <button type="button" onclick="eliminarTodo()" > Eliminar todos </button>
+        </div>
+        <hr>
+
+        <span class="titu">Nombre</span>  <span class="titu">Numero</span> <br>
+        <ul id="contactos"></ul>
+
+    </div>
+    <script type="text/javascript" src="js/agenda2.js"></script>
+    
+</body>
+</html>

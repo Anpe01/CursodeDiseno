@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/ejercicio01.css">
+    <title>Document</title>
+</head>
+<body>
+    <form id="formu" >
+        <fieldset>
+                <label for="nombre">Nombre</label> 
+                <input type="text" name="nombre" id="nombre" required> <br>
+
+                <label for="numero">Numero de Celular</label>
+                <input type="text" name="numero" id="numero" required> <br>
+
+                <input type="button" onclick="guardarDatos()" class="boton" value="Guardar Datos">
+                <input type="button" onclick="recuperarDatos()" class="boton" value="Recuperar datos">
+        </fieldset>
+
+                <p id="datos">Pulsa recuperar datos para ver la informacion guardad</p>
+
+        <script type="text/javascript" src="js/ejercicio.js"></script>
+    </form>
+</body>
+</html>

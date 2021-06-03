@@ -1,0 +1,15 @@
+#nombre,#numero{
+    display: block;
+}
+
+#formu{
+    background-color: aliceblue;
+}
+
+.boton{
+    background-color: aliceblue;
+}
+
+fieldset{
+    border: 0px solid;
+}

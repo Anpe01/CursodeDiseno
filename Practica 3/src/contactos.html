@@ -4,52 +4,66 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/sesion.css">
-    <title>Sesion</title>
+    <link rel="stylesheet" href="../css/contacto.css">
+    <title>Contacto</title>
 </head>
 <body>
     
-      
+   
 
     <header>
         <h1 id="titulo"> Angel Adrian Pupuche Rodas</h1> 
         <h2 id="subtitulo">Mi Web Personal</h2>
-        <img src="img/cara.jpg" alt="cara.jpg" id="sesioncara" >
-        <a href="sesion.html" id="sesion">Iniciar Sesion</a>
+        <img src="../img/cara.jpg" alt="cara.jpg" id="sesioncara" >
+        <a href="../src/sesion.html" id="sesion">Iniciar Sesion</a>
     </header>
 
     <nav>
         <ul>
-            <li> <a href="index.html"> Inicio</a> </li>
-            <li> <a href="curriculum.html">Curriculum</a> </li>
-            <li> <a href="proyecto.html">Proyectos</a> </li>
-            <li> <a href="contactos.html">Contactos</a> </li>
+            <li> <a href="../index.html"> Inicio</a> </li>
+            <li> <a href="../src/curriculum.html">Curriculum</a> </li>
+            <li> <a href="../src/proyecto.html">Proyectos</a> </li>
+            <li> <a href="../src/contactos.html">Contactos</a> </li>
         </ul>
     </nav>
 
     <section>
-       
-        <div id="conte">
-           
-        <form action="sesion.php"> 
+        <h2>Para Comunicarse Conmigo</h2>
+
+        <div id="formulario">
+            
+        <form id="formulario01" name="formulario01" method="POST" action="data.php">
+            
             <fieldset  id="datosPersonales">
-                <h1>Inicio de Sesion</h1>
-                <label for="nombre" id="usu">Usuario</label> 
-                <input type="text" name="nombre" id="nombre" placeholder="usuario123" class="cajas" required> <br>
+                <label for="nombre">Nombre</label> 
+                <input type="text" name="nombre" id="nombre" class="cajas" required> <br>
 
-                <label for="password" id="pass">Password</label>
-                <input type="password" name="password" id="password" placeholder="**********" class="cajas" required> <br>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" class="cajas" required> <br>
 
-                <input type="submit" value="Ingresar" id="boton1">  
+                <label for="asunto">Asunto</label>
+                <input type="text" name="asunto" id="asunto"  class="cajas" required> <br>
 
-                <a href="#recuperacion">Olvido su contraseña?</a>
+                <label for="mensaje">Mensaje</label>
+                <textarea name="argumento" id="argumento" class="cajas4" cols="60" rows="5" required></textarea><br>
 
-                <label for="nuevo_usu" id="nuv">Nuevo Usuario</label> 
-                <input type="submit" value="Registrase" class="boton">  
+
+                <input type="reset" value="Eliminar" class="boton">
+                 <input type="submit" value="Enviar" class="boton">    
             </fieldset>
         </form>
         </div>
 
+        <div id="info">
+            <p>Informacion de Contacto</p>
+            <ul>
+                <li> Correo Electronico: PupucheAngel@gmail.com </li>
+                <li> Whatsapp :+51 951533960 </li>
+                <li> Telegram :@AngelPupuche </li>
+                <li> Twitter :@AngelPupucheRodas</li>
+            </ul>
+       </div>
+        
     </section>
 
 
@@ -57,10 +71,10 @@
         <div id="menu">
             <p>Menu</p>
             <ul>
-                <li> <a href="index.html"> Inicio</a> </li>
-                <li> <a href="curriculum.html">Curriculum</a> </li>
-                <li> <a href="proyecto.html">Proyectos</a> </li>
-                <li> <a href="contactos.html">Contactos</a> </li>
+                <li> <a href="../index.html"> Inicio</a> </li>
+                <li> <a href="../src/curriculum.html">Curriculum</a> </li>
+                <li> <a href="../src/proyecto.html">Proyectos</a> </li>
+                <li> <a href="../src/contactos.html">Contactos</a> </li>
             </ul>
         </div>
 
@@ -77,7 +91,7 @@
 
 
     <div id="aside2">
-        <img src="img/cara.jpg" alt="cara.jpg"  id="caraaside">
+        <img src="../img/cara.jpg" alt="cara.jpg"  id="caraaside">
 
        <div>
             <p>Informacion de Conctacto</p>
@@ -113,10 +127,10 @@
        <div>
             <p>Menu</p>
             <ul>
-                <li> <a href="index.html"> Inicio</a> </li>
-                <li> <a href="curriculum.html">Curriculum</a> </li>
-                <li> <a href="proyecto.html">Proyectos</a> </li>
-                <li> <a href="contactos.html">Contactos</a> </li>
+                <li> <a href="../index.html"> Inicio</a> </li>
+                <li> <a href="../src/curriculum.html">Curriculum</a> </li>
+                <li> <a href="../src/proyecto.html">Proyectos</a> </li>
+                <li> <a href="../src/contactos.html">Contactos</a> </li>
             </ul> 
        </div>  
     </div>
