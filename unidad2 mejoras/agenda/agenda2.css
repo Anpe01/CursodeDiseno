@@ -1,0 +1,32 @@
+#contenedor{
+    width: 360px;
+    margin: auto;
+    background-color: floralwhite;
+    padding-left: 10px;
+    font-family: calibri;
+}
+
+span{
+    width: 100px;
+    display: block;
+    float: left;
+    padding-left: 4px;
+}
+
+.nom{
+    background-color: darkgray;
+}
+
+.titu{
+    background-color: rgb(109, 150, 106);
+}
+
+li{
+    list-style: none;
+    margin-top: 1px;
+}
+
+ul{
+    margin: 0px;
+    padding-left: 0px;
+}

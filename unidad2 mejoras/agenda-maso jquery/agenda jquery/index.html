@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Pagar Carrito</title>
+  </head>
+  <body>
+    <div class="container mt-4">
+      <h2>Pago Carrito</h2>
+      <hr>
+
+      <div class="row">
+          <!--1ra columna Formulario-->
+          <div class="col">
+            <h3>Usuario</h3>
+
+              <!--input: nombre completo-->
+              <div class="form-group">
+                <label for="txtNombre">Nombre Completo</label>
+                <input type="text" class="form-control" id="txtNombre" placeholder="Ingrese Nombre Completo">
+              </div>
+              <!-- input: Correo -->
+              <div class="form-group">
+                <label for="txtCorreo">Correo</label>
+                <input type="email" class="form-control" id="txtCorreo" placeholder="Ingrese Correo">
+              </div>
+              <!-- input: Fecha Nacimiento -->
+              <div class="form-group">
+                <label for="txtFechaNac">Fecha Nacimiento</label>
+                <input type="date" class="form-control" id="txtFechaNac" placeholder="Ingrese Fecha de Nacimiento">
+              </div>
+              <!--select: pais  -->
+              <div class="form-group">
+                <label for="cboPais">País</label>
+                <select id="cboPais" class="custom-select">
+                  <option value="Perú">Perú</option>
+                  <option value="Chile">Chile</option>
+                  <option value="Argentina">Argentina</option>
+                </select>
+                </div>
+                <!--input: teléfono]-->
+                <div class="form-group">
+                  <label for="txtNombre">Teléfono</label>
+                  <input type="text" class="form-control" id="txtTelefono" placeholder="Ingrese Nro Teléfono">
+                </div>
+                <!-- Radio: Sexo -->
+                <div class="form-group">
+                  <label for="">Sexo</label>
+                  <div class="row">
+                    <!-- primera opción: Masculino -->
+                    <div class="col">
+                      <div class="custom-control custom-radio">
+                        <input type="radio" id= "rdbMasculino" name="chkSexo" class="custom-control-input" value="M" >
+                        <label for="rdbMasculino" class="custom-control-label">Masculino</label>
+                      </div>
+                    </div>
+
+                    <!-- primera opción: Femenino -->
+                    <div class="col">
+                      <div class="custom-control custom-radio">
+                        <input type="radio" id= "rdbFemenino" name="chkSexo" class="custom-control-input" value="F" >
+                        <label for="rdbFemenino" class="custom-control-label">Femenino</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              <!-- boton: guardar -->
+              <a href="" id="btnRegistrar" class="btn btn-primary">Registrar</a>
+
+
+          </div>
+
+          <!-- 2da Columna -->
+          <div class="col">
+            <h3>Lista de Contactos</h3>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Nombre</th>
+                  <th>Correo</th>
+                  <th>F. Nacimiento</th>
+                  <th>País</th>
+                  <th>Sexo</th>
+                  <th>-</th>
+                </tr>
+              </thead>
+
+              <tbody id="tblDatos">
+                <tr>
+                  <td>Carlos</td>
+                  <td>45601813@usat.pe</td>
+                  <td>1989-03-01</td>
+                  <td>Perú</td>
+                  <td>M</td>
+                  <td>
+                    <button class="btn btn-danger btn-sm">x</button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script src ="agenda.js" charset="utf-8">
+
+    </script>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+.principal{
+    margin: 0px auto;
+    max-width: 1000px;
+    min-height:100vh;
+}
+
+header{
+    background-color: blueviolet;
+}
+nav{
+    background-color: cornflowerblue;
+}
+section{
+    background-color: indigo;
+}
+aside{
+    background-color: darkmagenta;
+}
+footer{
+    background-color: darkorchid;
+}

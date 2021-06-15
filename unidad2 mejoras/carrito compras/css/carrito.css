@@ -1,0 +1,9 @@
+body{
+    background-color: rgb(204, 192, 192);
+}
+h2{
+    color: black;
+}
+#items,#carrito{
+    background-color: rgb(209, 185, 185);
+}
