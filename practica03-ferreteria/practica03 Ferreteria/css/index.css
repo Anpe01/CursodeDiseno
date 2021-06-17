@@ -1,0 +1,99 @@
+
+.row {
+    margin: 20px 15px;
+}
+
+.col {
+    margin: 0px 15px;
+    flex: 0 0 0%;
+}
+
+.cursos {
+    padding: 0px 0px 15px 0px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.cursos h3 {
+    color: white;
+    padding: 10px 20px;
+    background-color: rgb(194, 105, 64);
+    border-radius: 10px 10px 0px 0px;
+}
+
+.card {
+    margin-bottom: 15px;
+}
+nav {
+    background-color: rgba(0, 0, 0, 0.623);
+    text-align: center;
+    
+}
+nav ul{
+    list-style: none; 
+    
+}
+#navegacion{
+    width: 200px;
+    
+    color: black;
+}
+
+.card img {
+    height: 100px;
+    width: 100px;
+    align-self: center;
+    margin-top: 10px;
+}
+
+.carrito {
+    padding: 0px 0px 15px 0px;
+    border-radius: 10px;
+}
+
+.carrito h3 {
+    color: white;
+    padding: 10px 20px;
+    background-color: rgb(0, 10, 3);
+    border-radius: 10px 10px 0px 0px;
+}
+
+form {
+    margin: 0px 30px;
+}
+
+.frm-botones {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.frm-botones button {
+    height: 40px;
+}
+
+header {
+    flex: 0 0 auto;
+    background-color:#fd4e04;
+}
+
+.head img {
+    margin: 15px 0px 15px 30px;
+    width: 100px;
+    height: 100px;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+header a {
+    color: white;
+    padding: 10px 20px;
+    background-color: rgb(0, 10, 3);
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 5px 15px;
+}
+ 

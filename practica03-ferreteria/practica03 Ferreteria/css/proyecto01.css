@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(250, 237, 226);
+}
+
+#contenedor{
+    width: 360px;
+    margin: auto;
+    background-color: rgb(243, 240, 235);
+    padding-left: 10px;
+    font-family: calibri;
+}
+
+span{
+    width: 100px;
+    display: block;
+    float: left;
+    padding-left: 4px;
+}
+.font{
+    font-family: 'Times New Roman';
+}
+
+.nom{
+    background-color: rgb(180, 166, 166);
+}
+
+.titu{
+    background-color: rgb(184, 243, 180);
+    font-family: 'Times New Roman';
+}
+
+li{
+    list-style: none;
+    margin-top: 1px;
+}
+
+ul{
+    margin: 0px;
+    padding-left: 0px;
+}
